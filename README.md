@@ -3,7 +3,9 @@
 In this codebase we present an approach to perform in-field phenotyping based on
 crop leaf and plant instance segmentation. 
 
-![](./static/teaser.jpg)
+<p align="center">
+    <img src="./static/teaser.png" />
+</p>
 
 We propose a vision-based approach that performs instance segmentation of
 individual crop leaves and associates each with its corresponding crop plant in
@@ -14,7 +16,9 @@ convolutional neural network~(CNN). We generate two different representations of
 the input image that are eligible to cluster individual crop leaf and plant
 instances within a predicted clustering region. 
 
-![](./static/network.jpg)
+<p align="center">
+    <img src="./static/network.png" />
+</p>
 
 ## Prerequisites
 Create a virtual environment and install dependencies:
